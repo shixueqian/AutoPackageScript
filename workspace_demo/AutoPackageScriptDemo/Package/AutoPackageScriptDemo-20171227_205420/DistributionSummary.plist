@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoPackageScriptDemo.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>C23649AD72AF3EA9FA4F27CE5FBAD497DBBD4535</string>
+				<key>dateExpires</key>
+				<string>2018/11/22</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>M9XE43A3CX.com.shixueqian.02</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>M9XE43A3CX</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>M9XE43A3CX.com.shixueqian.02</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>AutoPackageScriptDemo.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>8d57413c-f2be-4974-a953-c542ae80a20a</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.shixueqian.02</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>M9XE43A3CX</string>
+				<key>name</key>
+				<string>石 学谦</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

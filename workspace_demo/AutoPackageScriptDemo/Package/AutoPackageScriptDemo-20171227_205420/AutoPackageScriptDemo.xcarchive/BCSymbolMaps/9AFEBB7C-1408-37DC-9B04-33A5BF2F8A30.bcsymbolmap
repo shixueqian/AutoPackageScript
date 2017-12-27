@@ -1,0 +1,955 @@
+BCSymbolMap Version: 2.0
+-[ViewController viewDidLoad]
+-[ViewController imageView]
+-[ViewController setImageView:]
+-[ViewController .cxx_destruct]
+_OBJC_CLASS_$_ViewController
+_OBJC_IVAR_$_ViewController._imageView
+_OBJC_METACLASS_$_ViewController
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/AutoPackageScriptDemo/ViewController.m
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo
+_OBJC_CLASS_$_AppDelegate
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/AutoPackageScriptDemo/main.m
+main
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/AutoPackageScriptDemo/AppDelegate.m
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/AutoPackageScriptDemo/AppDelegate.h
++[NSData(ImageContentType) sd_imageFormatForImageData:]
++[NSData(ImageContentType) sd_UTTypeFromSDImageFormat:]
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods
+-[AutoPurgeCache init]
+-[AutoPurgeCache dealloc]
++[SDImageCache sharedImageCache]
+___32+[SDImageCache sharedImageCache]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SDImageCache init]
+-[SDImageCache initWithNamespace:]
+-[SDImageCache initWithNamespace:diskCacheDirectory:]
+___53-[SDImageCache initWithNamespace:diskCacheDirectory:]_block_invoke
+___copy_helper_block_.37
+___destroy_helper_block_.38
+-[SDImageCache dealloc]
+-[SDImageCache checkIfQueueIsIOQueue]
+-[SDImageCache addReadOnlyCachePath:]
+-[SDImageCache cachePathForKey:inPath:]
+-[SDImageCache defaultCachePathForKey:]
+-[SDImageCache cachedFileNameForKey:]
+-[SDImageCache makeDiskCachePath:]
+-[SDImageCache storeImage:forKey:completion:]
+-[SDImageCache storeImage:forKey:toDisk:completion:]
+-[SDImageCache storeImage:imageData:forKey:toDisk:completion:]
+___62-[SDImageCache storeImage:imageData:forKey:toDisk:completion:]_block_invoke
+___62-[SDImageCache storeImage:imageData:forKey:toDisk:completion:]_block_invoke_2
+___copy_helper_block_.105
+___destroy_helper_block_.106
+___copy_helper_block_.108
+___destroy_helper_block_.109
+-[SDImageCache storeImageDataToDisk:forKey:]
+-[SDImageCache diskImageExistsWithKey:completion:]
+___50-[SDImageCache diskImageExistsWithKey:completion:]_block_invoke
+___50-[SDImageCache diskImageExistsWithKey:completion:]_block_invoke_2
+___copy_helper_block_.132
+___destroy_helper_block_.133
+___copy_helper_block_.135
+___destroy_helper_block_.136
+-[SDImageCache imageFromMemoryCacheForKey:]
+-[SDImageCache imageFromDiskCacheForKey:]
+-[SDImageCache imageFromCacheForKey:]
+-[SDImageCache diskImageDataBySearchingAllPathsForKey:]
+-[SDImageCache diskImageForKey:]
+-[SDImageCache scaledImageForKey:image:]
+_SDScaledImageForKey
+-[SDImageCache queryCacheOperationForKey:done:]
+___47-[SDImageCache queryCacheOperationForKey:done:]_block_invoke
+___47-[SDImageCache queryCacheOperationForKey:done:]_block_invoke_2
+___copy_helper_block_.173
+___destroy_helper_block_.174
+___copy_helper_block_.176
+___destroy_helper_block_.177
+-[SDImageCache removeImageForKey:withCompletion:]
+-[SDImageCache removeImageForKey:fromDisk:withCompletion:]
+___58-[SDImageCache removeImageForKey:fromDisk:withCompletion:]_block_invoke
+___58-[SDImageCache removeImageForKey:fromDisk:withCompletion:]_block_invoke_2
+___copy_helper_block_.185
+___destroy_helper_block_.186
+___copy_helper_block_.188
+___destroy_helper_block_.189
+-[SDImageCache setMaxMemoryCost:]
+-[SDImageCache maxMemoryCost]
+-[SDImageCache maxMemoryCountLimit]
+-[SDImageCache setMaxMemoryCountLimit:]
+-[SDImageCache clearMemory]
+-[SDImageCache clearDiskOnCompletion:]
+___38-[SDImageCache clearDiskOnCompletion:]_block_invoke
+___38-[SDImageCache clearDiskOnCompletion:]_block_invoke_2
+___copy_helper_block_.199
+___destroy_helper_block_.200
+___copy_helper_block_.202
+___destroy_helper_block_.203
+-[SDImageCache deleteOldFiles]
+-[SDImageCache deleteOldFilesWithCompletionBlock:]
+___50-[SDImageCache deleteOldFilesWithCompletionBlock:]_block_invoke
+___50-[SDImageCache deleteOldFilesWithCompletionBlock:]_block_invoke_2
+___50-[SDImageCache deleteOldFilesWithCompletionBlock:]_block_invoke_3
+___copy_helper_block_.246
+___destroy_helper_block_.247
+___copy_helper_block_.249
+___destroy_helper_block_.250
+-[SDImageCache backgroundDeleteOldFiles]
+___40-[SDImageCache backgroundDeleteOldFiles]_block_invoke
+___copy_helper_block_.263
+___destroy_helper_block_.264
+___40-[SDImageCache backgroundDeleteOldFiles]_block_invoke.268
+___copy_helper_block_.269
+___destroy_helper_block_.270
+-[SDImageCache getSize]
+___23-[SDImageCache getSize]_block_invoke
+___copy_helper_block_.280
+___destroy_helper_block_.281
+-[SDImageCache getDiskCount]
+___28-[SDImageCache getDiskCount]_block_invoke
+___copy_helper_block_.287
+___destroy_helper_block_.288
+-[SDImageCache calculateSizeWithCompletionBlock:]
+___49-[SDImageCache calculateSizeWithCompletionBlock:]_block_invoke
+___49-[SDImageCache calculateSizeWithCompletionBlock:]_block_invoke_2
+___copy_helper_block_.292
+___destroy_helper_block_.293
+___copy_helper_block_.295
+___destroy_helper_block_.296
+-[SDImageCache config]
+-[SDImageCache memCache]
+-[SDImageCache setMemCache:]
+-[SDImageCache diskCachePath]
+-[SDImageCache setDiskCachePath:]
+-[SDImageCache customPaths]
+-[SDImageCache setCustomPaths:]
+-[SDImageCache ioQueue]
+-[SDImageCache setIoQueue:]
+-[SDImageCache .cxx_destruct]
+_OBJC_CLASS_$_AutoPurgeCache
+_OBJC_METACLASS_$_AutoPurgeCache
+_sharedImageCache.once
+_sharedImageCache.instance
+___block_descriptor_tmp
+_OBJC_CLASS_$_SDImageCache
+_OBJC_IVAR_$_SDImageCache._ioQueue
+_OBJC_CLASS_$_SDImageCacheConfig
+_OBJC_IVAR_$_SDImageCache._config
+_OBJC_IVAR_$_SDImageCache._memCache
+_OBJC_IVAR_$_SDImageCache._diskCachePath
+_OBJC_IVAR_$_SDImageCache._fileManager
+___block_descriptor_tmp.39
+_OBJC_CLASS_$_SDWebImageCodersManager
+___block_descriptor_tmp.107
+___block_descriptor_tmp.110
+___block_descriptor_tmp.134
+___block_descriptor_tmp.137
+_SDWebImageCoderScaleDownLargeImagesKey
+___block_descriptor_tmp.175
+___block_descriptor_tmp.178
+___block_descriptor_tmp.187
+___block_descriptor_tmp.190
+___block_descriptor_tmp.201
+___block_descriptor_tmp.204
+___block_descriptor_tmp.241
+___block_literal_global
+___block_descriptor_tmp.248
+___block_descriptor_tmp.251
+___block_descriptor_tmp.265
+___block_descriptor_tmp.271
+___block_descriptor_tmp.282
+___block_descriptor_tmp.289
+___block_descriptor_tmp.294
+___block_descriptor_tmp.297
+_OBJC_IVAR_$_SDImageCache._customPaths
+_OBJC_METACLASS_$_SDImageCache
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDImageCache.m
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDImageCache.h
+__destroy_helper_block_
+__copy_helper_block_
+__49-[SDImageCache calculateSizeWithCompletionBlock:]_block_invoke_2
+__49-[SDImageCache calculateSizeWithCompletionBlock:]_block_invoke
+__28-[SDImageCache getDiskCount]_block_invoke
+__23-[SDImageCache getSize]_block_invoke
+__40-[SDImageCache backgroundDeleteOldFiles]_block_invoke.268
+__40-[SDImageCache backgroundDeleteOldFiles]_block_invoke
+__50-[SDImageCache deleteOldFilesWithCompletionBlock:]_block_invoke_3
+__50-[SDImageCache deleteOldFilesWithCompletionBlock:]_block_invoke_2
+__50-[SDImageCache deleteOldFilesWithCompletionBlock:]_block_invoke
+__38-[SDImageCache clearDiskOnCompletion:]_block_invoke_2
+__38-[SDImageCache clearDiskOnCompletion:]_block_invoke
+__58-[SDImageCache removeImageForKey:fromDisk:withCompletion:]_block_invoke_2
+__58-[SDImageCache removeImageForKey:fromDisk:withCompletion:]_block_invoke
+__47-[SDImageCache queryCacheOperationForKey:done:]_block_invoke_2
+__47-[SDImageCache queryCacheOperationForKey:done:]_block_invoke
+SDCacheCostForImage
+__50-[SDImageCache diskImageExistsWithKey:completion:]_block_invoke_2
+__50-[SDImageCache diskImageExistsWithKey:completion:]_block_invoke
+__62-[SDImageCache storeImage:imageData:forKey:toDisk:completion:]_block_invoke_2
+__62-[SDImageCache storeImage:imageData:forKey:toDisk:completion:]_block_invoke
+__53-[SDImageCache initWithNamespace:diskCacheDirectory:]_block_invoke
+__32+[SDImageCache sharedImageCache]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/dispatch/once.h
+-[SDImageCacheConfig init]
+-[SDImageCacheConfig shouldDecompressImages]
+-[SDImageCacheConfig setShouldDecompressImages:]
+-[SDImageCacheConfig shouldDisableiCloud]
+-[SDImageCacheConfig setShouldDisableiCloud:]
+-[SDImageCacheConfig shouldCacheImagesInMemory]
+-[SDImageCacheConfig setShouldCacheImagesInMemory:]
+-[SDImageCacheConfig diskCacheReadingOptions]
+-[SDImageCacheConfig setDiskCacheReadingOptions:]
+-[SDImageCacheConfig maxCacheAge]
+-[SDImageCacheConfig setMaxCacheAge:]
+-[SDImageCacheConfig maxCacheSize]
+-[SDImageCacheConfig setMaxCacheSize:]
+_OBJC_IVAR_$_SDImageCacheConfig._shouldDecompressImages
+_OBJC_IVAR_$_SDImageCacheConfig._shouldDisableiCloud
+_OBJC_IVAR_$_SDImageCacheConfig._shouldCacheImagesInMemory
+_OBJC_IVAR_$_SDImageCacheConfig._diskCacheReadingOptions
+_OBJC_IVAR_$_SDImageCacheConfig._maxCacheAge
+_OBJC_IVAR_$_SDImageCacheConfig._maxCacheSize
+_OBJC_METACLASS_$_SDImageCacheConfig
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.m
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.h
+_OBJC_METACLASS_$_PodsDummy_SDWebImage
+_OBJC_CLASS_$_PodsDummy_SDWebImage
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/Target Support Files/SDWebImage/SDWebImage-dummy.m
+_SDCGColorSpaceGetDeviceRGB
+___SDCGColorSpaceGetDeviceRGB_block_invoke
+_SDCGImageRefContainsAlpha
+_SDCGColorSpaceGetDeviceRGB.colorSpace
+_SDCGColorSpaceGetDeviceRGB.onceToken
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageCoder.m
+SDCGImageRefContainsAlpha
+__SDCGColorSpaceGetDeviceRGB_block_invoke
+SDCGColorSpaceGetDeviceRGB
++[SDWebImageCoderHelper animatedImageWithFrames:]
+___49+[SDWebImageCoderHelper animatedImageWithFrames:]_block_invoke
++[SDWebImageCoderHelper framesFromAnimatedImage:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___49+[SDWebImageCoderHelper framesFromAnimatedImage:]_block_invoke
+___copy_helper_block_.27
+___destroy_helper_block_.28
++[SDWebImageCoderHelper imageOrientationFromEXIFOrientation:]
++[SDWebImageCoderHelper exifOrientationFromImageOrientation:]
+_OBJC_CLASS_$_SDWebImageFrame
+___block_descriptor_tmp.30
+_OBJC_METACLASS_$_SDWebImageCoderHelper
+_OBJC_CLASS_$_SDWebImageCoderHelper
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageCoderHelper.m
+__49+[SDWebImageCoderHelper framesFromAnimatedImage:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__49+[SDWebImageCoderHelper animatedImageWithFrames:]_block_invoke
+gcdArray
+gcd
++[SDWebImageCodersManager sharedInstance]
+___41+[SDWebImageCodersManager sharedInstance]_block_invoke
+-[SDWebImageCodersManager init]
+-[SDWebImageCodersManager dealloc]
+-[SDWebImageCodersManager addCoder:]
+___36-[SDWebImageCodersManager addCoder:]_block_invoke
+___copy_helper_block_.74
+___destroy_helper_block_.75
+-[SDWebImageCodersManager removeCoder:]
+___39-[SDWebImageCodersManager removeCoder:]_block_invoke
+___copy_helper_block_.79
+___destroy_helper_block_.80
+-[SDWebImageCodersManager coders]
+___33-[SDWebImageCodersManager coders]_block_invoke
+___copy_helper_block_.88
+___destroy_helper_block_.89
+-[SDWebImageCodersManager setCoders:]
+___37-[SDWebImageCodersManager setCoders:]_block_invoke
+___copy_helper_block_.93
+___destroy_helper_block_.94
+-[SDWebImageCodersManager canDecodeFromData:]
+-[SDWebImageCodersManager canEncodeToFormat:]
+-[SDWebImageCodersManager decodedImageWithData:]
+-[SDWebImageCodersManager decompressedImageWithImage:data:options:]
+-[SDWebImageCodersManager encodedDataWithImage:format:]
+-[SDWebImageCodersManager mutableCoders]
+-[SDWebImageCodersManager setMutableCoders:]
+-[SDWebImageCodersManager mutableCodersAccessQueue]
+-[SDWebImageCodersManager setMutableCodersAccessQueue:]
+-[SDWebImageCodersManager .cxx_destruct]
+_sharedInstance.once
+_sharedInstance.instance
+_OBJC_CLASS_$_SDWebImageImageIOCoder
+_OBJC_IVAR_$_SDWebImageCodersManager._mutableCoders
+_OBJC_IVAR_$_SDWebImageCodersManager._mutableCodersAccessQueue
+l_OBJC_PROTOCOL_$_SDWebImageCoder
+l_OBJC_LABEL_PROTOCOL_$_SDWebImageCoder
+l_OBJC_PROTOCOL_REFERENCE_$_SDWebImageCoder
+___block_descriptor_tmp.76
+___block_descriptor_tmp.81
+___block_descriptor_tmp.90
+___block_descriptor_tmp.95
+_OBJC_METACLASS_$_SDWebImageCodersManager
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageCodersManager.m
+__37-[SDWebImageCodersManager setCoders:]_block_invoke
+__33-[SDWebImageCodersManager coders]_block_invoke
+__39-[SDWebImageCodersManager removeCoder:]_block_invoke
+__36-[SDWebImageCodersManager addCoder:]_block_invoke
+__41+[SDWebImageCodersManager sharedInstance]_block_invoke
+_SDWebImageErrorDomain
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m
+SDScaledImageForKey
+-[SDWebImageDownloadToken url]
+-[SDWebImageDownloadToken setUrl:]
+-[SDWebImageDownloadToken downloadOperationCancelToken]
+-[SDWebImageDownloadToken setDownloadOperationCancelToken:]
+-[SDWebImageDownloadToken .cxx_destruct]
++[SDWebImageDownloader initialize]
++[SDWebImageDownloader sharedDownloader]
+___40+[SDWebImageDownloader sharedDownloader]_block_invoke
+-[SDWebImageDownloader init]
+-[SDWebImageDownloader initWithSessionConfiguration:]
+-[SDWebImageDownloader createNewSessionWithConfiguration:]
+-[SDWebImageDownloader dealloc]
+-[SDWebImageDownloader setValue:forHTTPHeaderField:]
+-[SDWebImageDownloader valueForHTTPHeaderField:]
+-[SDWebImageDownloader setMaxConcurrentDownloads:]
+-[SDWebImageDownloader currentDownloadCount]
+-[SDWebImageDownloader maxConcurrentDownloads]
+-[SDWebImageDownloader sessionConfiguration]
+-[SDWebImageDownloader setOperationClass:]
+-[SDWebImageDownloader downloadImageWithURL:options:progress:completed:]
+___72-[SDWebImageDownloader downloadImageWithURL:options:progress:completed:]_block_invoke
+___copy_helper_block_.196
+___destroy_helper_block_.197
+-[SDWebImageDownloader cancel:]
+___31-[SDWebImageDownloader cancel:]_block_invoke
+___copy_helper_block_.210
+___destroy_helper_block_.211
+-[SDWebImageDownloader addProgressCallback:completedBlock:forURL:createCallback:]
+___81-[SDWebImageDownloader addProgressCallback:completedBlock:forURL:createCallback:]_block_invoke
+___81-[SDWebImageDownloader addProgressCallback:completedBlock:forURL:createCallback:]_block_invoke_2
+___81-[SDWebImageDownloader addProgressCallback:completedBlock:forURL:createCallback:]_block_invoke_3
+___copy_helper_block_.213
+___destroy_helper_block_.214
+___copy_helper_block_.216
+___destroy_helper_block_.217
+___copy_helper_block_.225
+___destroy_helper_block_.226
+-[SDWebImageDownloader setSuspended:]
+-[SDWebImageDownloader cancelAllDownloads]
+-[SDWebImageDownloader operationWithTask:]
+-[SDWebImageDownloader URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[SDWebImageDownloader URLSession:dataTask:didReceiveData:]
+-[SDWebImageDownloader URLSession:dataTask:willCacheResponse:completionHandler:]
+-[SDWebImageDownloader URLSession:task:didCompleteWithError:]
+-[SDWebImageDownloader URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[SDWebImageDownloader URLSession:task:didReceiveChallenge:completionHandler:]
+-[SDWebImageDownloader shouldDecompressImages]
+-[SDWebImageDownloader setShouldDecompressImages:]
+-[SDWebImageDownloader downloadTimeout]
+-[SDWebImageDownloader setDownloadTimeout:]
+-[SDWebImageDownloader executionOrder]
+-[SDWebImageDownloader setExecutionOrder:]
+-[SDWebImageDownloader urlCredential]
+-[SDWebImageDownloader setUrlCredential:]
+-[SDWebImageDownloader username]
+-[SDWebImageDownloader setUsername:]
+-[SDWebImageDownloader password]
+-[SDWebImageDownloader setPassword:]
+-[SDWebImageDownloader headersFilter]
+-[SDWebImageDownloader setHeadersFilter:]
+-[SDWebImageDownloader downloadQueue]
+-[SDWebImageDownloader setDownloadQueue:]
+-[SDWebImageDownloader lastAddedOperation]
+-[SDWebImageDownloader setLastAddedOperation:]
+-[SDWebImageDownloader operationClass]
+-[SDWebImageDownloader URLOperations]
+-[SDWebImageDownloader setURLOperations:]
+-[SDWebImageDownloader HTTPHeaders]
+-[SDWebImageDownloader setHTTPHeaders:]
+-[SDWebImageDownloader barrierQueue]
+-[SDWebImageDownloader setBarrierQueue:]
+-[SDWebImageDownloader session]
+-[SDWebImageDownloader setSession:]
+-[SDWebImageDownloader .cxx_destruct]
+_OBJC_IVAR_$_SDWebImageDownloadToken._url
+_OBJC_IVAR_$_SDWebImageDownloadToken._downloadOperationCancelToken
+_OBJC_METACLASS_$_SDWebImageDownloadToken
+_OBJC_CLASS_$_SDWebImageDownloadToken
+_SDWebImageDownloadStartNotification
+_SDWebImageDownloadStopNotification
+_sharedDownloader.once
+_sharedDownloader.instance
+_OBJC_CLASS_$_SDWebImageDownloader
+_OBJC_CLASS_$_SDWebImageDownloaderOperation
+_OBJC_IVAR_$_SDWebImageDownloader._operationClass
+_OBJC_IVAR_$_SDWebImageDownloader._shouldDecompressImages
+_OBJC_IVAR_$_SDWebImageDownloader._executionOrder
+_OBJC_IVAR_$_SDWebImageDownloader._downloadQueue
+_OBJC_IVAR_$_SDWebImageDownloader._URLOperations
+_OBJC_IVAR_$_SDWebImageDownloader._HTTPHeaders
+_OBJC_IVAR_$_SDWebImageDownloader._barrierQueue
+_OBJC_IVAR_$_SDWebImageDownloader._downloadTimeout
+l_OBJC_PROTOCOL_$_SDWebImageDownloaderOperationInterface
+l_OBJC_LABEL_PROTOCOL_$_SDWebImageDownloaderOperationInterface
+l_OBJC_PROTOCOL_REFERENCE_$_SDWebImageDownloaderOperationInterface
+___block_descriptor_tmp.199
+___block_descriptor_tmp.212
+___block_descriptor_tmp.215
+___block_descriptor_tmp.218
+___block_descriptor_tmp.227
+_OBJC_IVAR_$_SDWebImageDownloader._urlCredential
+_OBJC_IVAR_$_SDWebImageDownloader._username
+_OBJC_IVAR_$_SDWebImageDownloader._password
+_OBJC_IVAR_$_SDWebImageDownloader._headersFilter
+_OBJC_IVAR_$_SDWebImageDownloader._lastAddedOperation
+_OBJC_IVAR_$_SDWebImageDownloader._session
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionDataDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDataDelegate
+_OBJC_METACLASS_$_SDWebImageDownloader
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h
+__81-[SDWebImageDownloader addProgressCallback:completedBlock:forURL:createCallback:]_block_invoke_3
+__81-[SDWebImageDownloader addProgressCallback:completedBlock:forURL:createCallback:]_block_invoke_2
+__81-[SDWebImageDownloader addProgressCallback:completedBlock:forURL:createCallback:]_block_invoke
+__31-[SDWebImageDownloader cancel:]_block_invoke
+__72-[SDWebImageDownloader downloadImageWithURL:options:progress:completed:]_block_invoke
+__40+[SDWebImageDownloader sharedDownloader]_block_invoke
+-[SDWebImageDownloaderOperation init]
+-[SDWebImageDownloaderOperation initWithRequest:inSession:options:]
+-[SDWebImageDownloaderOperation dealloc]
+-[SDWebImageDownloaderOperation addHandlersForProgress:completed:]
+___66-[SDWebImageDownloaderOperation addHandlersForProgress:completed:]_block_invoke
+-[SDWebImageDownloaderOperation callbacksForKey:]
+___49-[SDWebImageDownloaderOperation callbacksForKey:]_block_invoke
+___copy_helper_block_.39
+___destroy_helper_block_.40
+-[SDWebImageDownloaderOperation cancel:]
+___40-[SDWebImageDownloaderOperation cancel:]_block_invoke
+___copy_helper_block_.44
+___destroy_helper_block_.45
+-[SDWebImageDownloaderOperation start]
+___38-[SDWebImageDownloaderOperation start]_block_invoke
+___copy_helper_block_.71
+___destroy_helper_block_.72
+___38-[SDWebImageDownloaderOperation start]_block_invoke.119
+___copy_helper_block_.125
+___destroy_helper_block_.126
+-[SDWebImageDownloaderOperation cancel]
+-[SDWebImageDownloaderOperation cancelInternal]
+___47-[SDWebImageDownloaderOperation cancelInternal]_block_invoke
+___copy_helper_block_.143
+___destroy_helper_block_.144
+-[SDWebImageDownloaderOperation done]
+-[SDWebImageDownloaderOperation reset]
+___38-[SDWebImageDownloaderOperation reset]_block_invoke
+___copy_helper_block_.150
+___destroy_helper_block_.151
+___38-[SDWebImageDownloaderOperation reset]_block_invoke.155
+___copy_helper_block_.158
+___destroy_helper_block_.159
+-[SDWebImageDownloaderOperation setFinished:]
+-[SDWebImageDownloaderOperation setExecuting:]
+-[SDWebImageDownloaderOperation isConcurrent]
+-[SDWebImageDownloaderOperation URLSession:dataTask:didReceiveResponse:completionHandler:]
+___90-[SDWebImageDownloaderOperation URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke
+___copy_helper_block_.186
+___destroy_helper_block_.187
+___90-[SDWebImageDownloaderOperation URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke.189
+___copy_helper_block_.190
+___destroy_helper_block_.191
+-[SDWebImageDownloaderOperation URLSession:dataTask:didReceiveData:]
+-[SDWebImageDownloaderOperation URLSession:dataTask:willCacheResponse:completionHandler:]
+-[SDWebImageDownloaderOperation URLSession:task:didCompleteWithError:]
+___70-[SDWebImageDownloaderOperation URLSession:task:didCompleteWithError:]_block_invoke
+___copy_helper_block_.289
+___destroy_helper_block_.290
+-[SDWebImageDownloaderOperation URLSession:task:didReceiveChallenge:completionHandler:]
+-[SDWebImageDownloaderOperation scaledImageForKey:image:]
+-[SDWebImageDownloaderOperation shouldContinueWhenAppEntersBackground]
+-[SDWebImageDownloaderOperation callCompletionBlocksWithError:]
+-[SDWebImageDownloaderOperation callCompletionBlocksWithImage:imageData:error:finished:]
+___88-[SDWebImageDownloaderOperation callCompletionBlocksWithImage:imageData:error:finished:]_block_invoke
+___copy_helper_block_.320
+___destroy_helper_block_.321
+___88-[SDWebImageDownloaderOperation callCompletionBlocksWithImage:imageData:error:finished:]_block_invoke.323
+___copy_helper_block_.324
+___destroy_helper_block_.325
+-[SDWebImageDownloaderOperation isExecuting]
+-[SDWebImageDownloaderOperation isFinished]
+-[SDWebImageDownloaderOperation request]
+-[SDWebImageDownloaderOperation dataTask]
+-[SDWebImageDownloaderOperation setDataTask:]
+-[SDWebImageDownloaderOperation shouldDecompressImages]
+-[SDWebImageDownloaderOperation setShouldDecompressImages:]
+-[SDWebImageDownloaderOperation shouldUseCredentialStorage]
+-[SDWebImageDownloaderOperation setShouldUseCredentialStorage:]
+-[SDWebImageDownloaderOperation credential]
+-[SDWebImageDownloaderOperation setCredential:]
+-[SDWebImageDownloaderOperation options]
+-[SDWebImageDownloaderOperation expectedSize]
+-[SDWebImageDownloaderOperation setExpectedSize:]
+-[SDWebImageDownloaderOperation response]
+-[SDWebImageDownloaderOperation setResponse:]
+-[SDWebImageDownloaderOperation callbackBlocks]
+-[SDWebImageDownloaderOperation setCallbackBlocks:]
+-[SDWebImageDownloaderOperation imageData]
+-[SDWebImageDownloaderOperation setImageData:]
+-[SDWebImageDownloaderOperation cachedData]
+-[SDWebImageDownloaderOperation setCachedData:]
+-[SDWebImageDownloaderOperation unownedSession]
+-[SDWebImageDownloaderOperation setUnownedSession:]
+-[SDWebImageDownloaderOperation ownedSession]
+-[SDWebImageDownloaderOperation setOwnedSession:]
+-[SDWebImageDownloaderOperation barrierQueue]
+-[SDWebImageDownloaderOperation setBarrierQueue:]
+-[SDWebImageDownloaderOperation backgroundTaskId]
+-[SDWebImageDownloaderOperation setBackgroundTaskId:]
+-[SDWebImageDownloaderOperation progressiveCoder]
+-[SDWebImageDownloaderOperation setProgressiveCoder:]
+-[SDWebImageDownloaderOperation .cxx_destruct]
+_SDWebImageDownloadReceiveResponseNotification
+_SDWebImageDownloadFinishNotification
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._request
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._shouldDecompressImages
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._options
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._callbackBlocks
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._executing
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._finished
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._expectedSize
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._unownedSession
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._barrierQueue
+___block_descriptor_tmp.41
+___block_descriptor_tmp.46
+___block_descriptor_tmp.73
+___block_descriptor_tmp.127
+___block_descriptor_tmp.145
+___block_descriptor_tmp.152
+___block_descriptor_tmp.160
+___block_descriptor_tmp.188
+___block_descriptor_tmp.192
+l_OBJC_PROTOCOL_$_SDWebImageProgressiveCoder
+l_OBJC_LABEL_PROTOCOL_$_SDWebImageProgressiveCoder
+l_OBJC_PROTOCOL_REFERENCE_$_SDWebImageProgressiveCoder
+_OBJC_CLASS_$_SDWebImageManager
+___block_descriptor_tmp.291
+___block_descriptor_tmp.322
+___block_descriptor_tmp.326
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._dataTask
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._shouldUseCredentialStorage
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._credential
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._response
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._imageData
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._cachedData
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._ownedSession
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._backgroundTaskId
+_OBJC_IVAR_$_SDWebImageDownloaderOperation._progressiveCoder
+l_OBJC_PROTOCOL_$_SDWebImageOperation
+l_OBJC_LABEL_PROTOCOL_$_SDWebImageOperation
+_OBJC_METACLASS_$_SDWebImageDownloaderOperation
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h
+__88-[SDWebImageDownloaderOperation callCompletionBlocksWithImage:imageData:error:finished:]_block_invoke.323
+__88-[SDWebImageDownloaderOperation callCompletionBlocksWithImage:imageData:error:finished:]_block_invoke
+__70-[SDWebImageDownloaderOperation URLSession:task:didCompleteWithError:]_block_invoke
+__CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__90-[SDWebImageDownloaderOperation URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke.189
+__90-[SDWebImageDownloaderOperation URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke
+__38-[SDWebImageDownloaderOperation reset]_block_invoke.155
+__38-[SDWebImageDownloaderOperation reset]_block_invoke
+__47-[SDWebImageDownloaderOperation cancelInternal]_block_invoke
+__38-[SDWebImageDownloaderOperation start]_block_invoke.119
+__38-[SDWebImageDownloaderOperation start]_block_invoke
+__40-[SDWebImageDownloaderOperation cancel:]_block_invoke
+__49-[SDWebImageDownloaderOperation callbacksForKey:]_block_invoke
+__66-[SDWebImageDownloaderOperation addHandlersForProgress:completed:]_block_invoke
++[SDWebImageFrame frameWithImage:duration:]
+-[SDWebImageFrame image]
+-[SDWebImageFrame setImage:]
+-[SDWebImageFrame duration]
+-[SDWebImageFrame setDuration:]
+-[SDWebImageFrame .cxx_destruct]
+_OBJC_IVAR_$_SDWebImageFrame._image
+_OBJC_IVAR_$_SDWebImageFrame._duration
+_OBJC_METACLASS_$_SDWebImageFrame
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageFrame.m
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageFrame.h
++[SDWebImageGIFCoder sharedCoder]
+___33+[SDWebImageGIFCoder sharedCoder]_block_invoke
+-[SDWebImageGIFCoder canDecodeFromData:]
+-[SDWebImageGIFCoder decodedImageWithData:]
+-[SDWebImageGIFCoder sd_frameDurationAtIndex:source:]
+-[SDWebImageGIFCoder decompressedImageWithImage:data:options:]
+-[SDWebImageGIFCoder canEncodeToFormat:]
+-[SDWebImageGIFCoder encodedDataWithImage:format:]
+_sharedCoder.coder
+_sharedCoder.onceToken
+_OBJC_CLASS_$_SDWebImageGIFCoder
+_OBJC_METACLASS_$_SDWebImageGIFCoder
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageGIFCoder.m
+__33+[SDWebImageGIFCoder sharedCoder]_block_invoke
+-[SDWebImageImageIOCoder dealloc]
++[SDWebImageImageIOCoder sharedCoder]
+___37+[SDWebImageImageIOCoder sharedCoder]_block_invoke
+-[SDWebImageImageIOCoder canDecodeFromData:]
+-[SDWebImageImageIOCoder canIncrementallyDecodeFromData:]
+-[SDWebImageImageIOCoder decodedImageWithData:]
+-[SDWebImageImageIOCoder incrementallyDecodedImageWithData:finished:]
+-[SDWebImageImageIOCoder decompressedImageWithImage:data:options:]
+-[SDWebImageImageIOCoder sd_decompressedImageWithImage:]
+-[SDWebImageImageIOCoder sd_decompressedAndScaledDownImageWithImage:]
+-[SDWebImageImageIOCoder canEncodeToFormat:]
+-[SDWebImageImageIOCoder encodedDataWithImage:format:]
++[SDWebImageImageIOCoder shouldDecodeImage:]
++[SDWebImageImageIOCoder canEncodeToHEICFormat]
+___47+[SDWebImageImageIOCoder canEncodeToHEICFormat]_block_invoke
++[SDWebImageImageIOCoder sd_imageOrientationFromImageData:]
++[SDWebImageImageIOCoder shouldScaleDownImage:]
++[SDWebImageImageIOCoder colorSpaceForImageRef:]
+_OBJC_IVAR_$_SDWebImageImageIOCoder._imageSource
+_OBJC_IVAR_$_SDWebImageImageIOCoder._width
+_OBJC_IVAR_$_SDWebImageImageIOCoder._height
+_OBJC_IVAR_$_SDWebImageImageIOCoder._orientation
+_canEncodeToHEICFormat.canEncode
+_canEncodeToHEICFormat.onceToken
+___block_descriptor_tmp.74
+___block_literal_global.75
+_OBJC_METACLASS_$_SDWebImageImageIOCoder
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageImageIOCoder.m
+__47+[SDWebImageImageIOCoder canEncodeToHEICFormat]_block_invoke
+CGRectMake
+__37+[SDWebImageImageIOCoder sharedCoder]_block_invoke
++[SDWebImageManager sharedManager]
+___34+[SDWebImageManager sharedManager]_block_invoke
+-[SDWebImageManager init]
+-[SDWebImageManager initWithCache:downloader:]
+-[SDWebImageManager cacheKeyForURL:]
+-[SDWebImageManager cachedImageExistsForURL:completion:]
+___56-[SDWebImageManager cachedImageExistsForURL:completion:]_block_invoke
+___copy_helper_block_.23
+___destroy_helper_block_.24
+___56-[SDWebImageManager cachedImageExistsForURL:completion:]_block_invoke.26
+-[SDWebImageManager diskImageExistsForURL:completion:]
+___54-[SDWebImageManager diskImageExistsForURL:completion:]_block_invoke
+___copy_helper_block_.33
+___destroy_helper_block_.34
+-[SDWebImageManager loadImageWithURL:options:progress:completed:]
+___65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke
+___65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke_2
+___65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke_3
+___copy_helper_block_.86
+___destroy_helper_block_.87
+___copy_helper_block_.89
+___destroy_helper_block_.90
+___65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke.95
+___copy_helper_block_.98
+___destroy_helper_block_.99
+___copy_helper_block_.103
+___destroy_helper_block_.104
+-[SDWebImageManager saveImageToCache:forURL:]
+-[SDWebImageManager cancelAll]
+-[SDWebImageManager isRunning]
+-[SDWebImageManager safelyRemoveOperationFromRunning:]
+-[SDWebImageManager callCompletionBlockForOperation:completion:error:url:]
+-[SDWebImageManager callCompletionBlockForOperation:completion:image:data:error:cacheType:finished:url:]
+___104-[SDWebImageManager callCompletionBlockForOperation:completion:image:data:error:cacheType:finished:url:]_block_invoke
+___copy_helper_block_.123
+___destroy_helper_block_.124
+___104-[SDWebImageManager callCompletionBlockForOperation:completion:image:data:error:cacheType:finished:url:]_block_invoke.126
+___copy_helper_block_.127
+___destroy_helper_block_.128
+-[SDWebImageManager delegate]
+-[SDWebImageManager setDelegate:]
+-[SDWebImageManager imageCache]
+-[SDWebImageManager setImageCache:]
+-[SDWebImageManager imageDownloader]
+-[SDWebImageManager setImageDownloader:]
+-[SDWebImageManager cacheKeyFilter]
+-[SDWebImageManager setCacheKeyFilter:]
+-[SDWebImageManager failedURLs]
+-[SDWebImageManager setFailedURLs:]
+-[SDWebImageManager runningOperations]
+-[SDWebImageManager setRunningOperations:]
+-[SDWebImageManager .cxx_destruct]
+-[SDWebImageCombinedOperation setCancelBlock:]
+-[SDWebImageCombinedOperation cancel]
+-[SDWebImageCombinedOperation isCancelled]
+-[SDWebImageCombinedOperation setCancelled:]
+-[SDWebImageCombinedOperation cancelBlock]
+-[SDWebImageCombinedOperation cacheOperation]
+-[SDWebImageCombinedOperation setCacheOperation:]
+-[SDWebImageCombinedOperation .cxx_destruct]
+_sharedManager.once
+_sharedManager.instance
+_OBJC_IVAR_$_SDWebImageManager._imageCache
+_OBJC_IVAR_$_SDWebImageManager._imageDownloader
+_OBJC_IVAR_$_SDWebImageManager._failedURLs
+_OBJC_IVAR_$_SDWebImageManager._runningOperations
+___block_descriptor_tmp.25
+___block_descriptor_tmp.35
+_OBJC_CLASS_$_SDWebImageCombinedOperation
+___block_descriptor_tmp.88
+___block_descriptor_tmp.92
+___block_descriptor_tmp.100
+___block_descriptor_tmp.106
+___block_descriptor_tmp.125
+___block_descriptor_tmp.129
+_OBJC_IVAR_$_SDWebImageManager._delegate
+_OBJC_IVAR_$_SDWebImageManager._cacheKeyFilter
+_OBJC_METACLASS_$_SDWebImageManager
+_OBJC_IVAR_$_SDWebImageCombinedOperation._cancelBlock
+_OBJC_IVAR_$_SDWebImageCombinedOperation._cancelled
+_OBJC_IVAR_$_SDWebImageCombinedOperation._cacheOperation
+_OBJC_METACLASS_$_SDWebImageCombinedOperation
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageManager.m
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImageManager.h
+__104-[SDWebImageManager callCompletionBlockForOperation:completion:image:data:error:cacheType:finished:url:]_block_invoke.126
+__104-[SDWebImageManager callCompletionBlockForOperation:completion:image:data:error:cacheType:finished:url:]_block_invoke
+__65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke.95
+__65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke_3
+__65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke_2
+__65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke
+__54-[SDWebImageManager diskImageExistsForURL:completion:]_block_invoke
+__56-[SDWebImageManager cachedImageExistsForURL:completion:]_block_invoke.26
+__56-[SDWebImageManager cachedImageExistsForURL:completion:]_block_invoke
+__34+[SDWebImageManager sharedManager]_block_invoke
++[SDWebImagePrefetcher sharedImagePrefetcher]
+___45+[SDWebImagePrefetcher sharedImagePrefetcher]_block_invoke
+-[SDWebImagePrefetcher init]
+-[SDWebImagePrefetcher initWithImageManager:]
+-[SDWebImagePrefetcher setMaxConcurrentDownloads:]
+-[SDWebImagePrefetcher maxConcurrentDownloads]
+-[SDWebImagePrefetcher startPrefetchingAtIndex:]
+___48-[SDWebImagePrefetcher startPrefetchingAtIndex:]_block_invoke
+___48-[SDWebImagePrefetcher startPrefetchingAtIndex:]_block_invoke_2
+___copy_helper_block_.45
+___destroy_helper_block_.46
+___copy_helper_block_.56
+___destroy_helper_block_.57
+-[SDWebImagePrefetcher reportStatus]
+-[SDWebImagePrefetcher prefetchURLs:]
+-[SDWebImagePrefetcher prefetchURLs:progress:completed:]
+-[SDWebImagePrefetcher cancelPrefetching]
+-[SDWebImagePrefetcher manager]
+-[SDWebImagePrefetcher setManager:]
+-[SDWebImagePrefetcher options]
+-[SDWebImagePrefetcher setOptions:]
+-[SDWebImagePrefetcher prefetcherQueue]
+-[SDWebImagePrefetcher setPrefetcherQueue:]
+-[SDWebImagePrefetcher delegate]
+-[SDWebImagePrefetcher setDelegate:]
+-[SDWebImagePrefetcher prefetchURLs]
+-[SDWebImagePrefetcher setPrefetchURLs:]
+-[SDWebImagePrefetcher requestedCount]
+-[SDWebImagePrefetcher setRequestedCount:]
+-[SDWebImagePrefetcher skippedCount]
+-[SDWebImagePrefetcher setSkippedCount:]
+-[SDWebImagePrefetcher finishedCount]
+-[SDWebImagePrefetcher setFinishedCount:]
+-[SDWebImagePrefetcher startedTime]
+-[SDWebImagePrefetcher setStartedTime:]
+-[SDWebImagePrefetcher completionBlock]
+-[SDWebImagePrefetcher setCompletionBlock:]
+-[SDWebImagePrefetcher progressBlock]
+-[SDWebImagePrefetcher setProgressBlock:]
+-[SDWebImagePrefetcher .cxx_destruct]
+_sharedImagePrefetcher.once
+_sharedImagePrefetcher.instance
+_OBJC_CLASS_$_SDWebImagePrefetcher
+_OBJC_IVAR_$_SDWebImagePrefetcher._manager
+_OBJC_IVAR_$_SDWebImagePrefetcher._options
+_OBJC_IVAR_$_SDWebImagePrefetcher._prefetcherQueue
+___block_descriptor_tmp.47
+___block_descriptor_tmp.59
+_OBJC_IVAR_$_SDWebImagePrefetcher._delegate
+_OBJC_IVAR_$_SDWebImagePrefetcher._prefetchURLs
+_OBJC_IVAR_$_SDWebImagePrefetcher._requestedCount
+_OBJC_IVAR_$_SDWebImagePrefetcher._skippedCount
+_OBJC_IVAR_$_SDWebImagePrefetcher._finishedCount
+_OBJC_IVAR_$_SDWebImagePrefetcher._startedTime
+_OBJC_IVAR_$_SDWebImagePrefetcher._completionBlock
+_OBJC_IVAR_$_SDWebImagePrefetcher._progressBlock
+_OBJC_METACLASS_$_SDWebImagePrefetcher
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h
+__48-[SDWebImagePrefetcher startPrefetchingAtIndex:]_block_invoke_2
+__48-[SDWebImagePrefetcher startPrefetchingAtIndex:]_block_invoke
+__45+[SDWebImagePrefetcher sharedImagePrefetcher]_block_invoke
+-[UIButton(WebCache) sd_currentImageURL]
+-[UIButton(WebCache) sd_imageURLForState:]
+-[UIButton(WebCache) sd_setImageWithURL:forState:]
+-[UIButton(WebCache) sd_setImageWithURL:forState:placeholderImage:]
+-[UIButton(WebCache) sd_setImageWithURL:forState:placeholderImage:options:]
+-[UIButton(WebCache) sd_setImageWithURL:forState:completed:]
+-[UIButton(WebCache) sd_setImageWithURL:forState:placeholderImage:completed:]
+-[UIButton(WebCache) sd_setImageWithURL:forState:placeholderImage:options:completed:]
+___85-[UIButton(WebCache) sd_setImageWithURL:forState:placeholderImage:options:completed:]_block_invoke
+-[UIButton(WebCache) sd_currentBackgroundImageURL]
+-[UIButton(WebCache) sd_backgroundImageURLForState:]
+-[UIButton(WebCache) sd_setBackgroundImageWithURL:forState:]
+-[UIButton(WebCache) sd_setBackgroundImageWithURL:forState:placeholderImage:]
+-[UIButton(WebCache) sd_setBackgroundImageWithURL:forState:placeholderImage:options:]
+-[UIButton(WebCache) sd_setBackgroundImageWithURL:forState:completed:]
+-[UIButton(WebCache) sd_setBackgroundImageWithURL:forState:placeholderImage:completed:]
+-[UIButton(WebCache) sd_setBackgroundImageWithURL:forState:placeholderImage:options:completed:]
+___95-[UIButton(WebCache) sd_setBackgroundImageWithURL:forState:placeholderImage:options:completed:]_block_invoke
+-[UIButton(WebCache) sd_setImageLoadOperation:forState:]
+-[UIButton(WebCache) sd_cancelImageLoadForState:]
+-[UIButton(WebCache) sd_setBackgroundImageLoadOperation:forState:]
+-[UIButton(WebCache) sd_cancelBackgroundImageLoadForState:]
+-[UIButton(WebCache) imageURLStorage]
+___block_descriptor_tmp.29
+_imageURLStorageKey
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m
+__95-[UIButton(WebCache) sd_setBackgroundImageWithURL:forState:placeholderImage:options:completed:]_block_invoke
+backgroundImageURLKeyForState
+__85-[UIButton(WebCache) sd_setImageWithURL:forState:placeholderImage:options:completed:]_block_invoke
+imageURLKeyForState
++[UIImage(ForceDecode) decodedImageWithImage:]
++[UIImage(ForceDecode) decodedAndScaledDownImageWithImage:]
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/UIImage+ForceDecode.m
++[UIImage(GIF) sd_animatedGIFWithData:]
+-[UIImage(GIF) isGIF]
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/UIImage+GIF.m
+-[UIImage(MultiFormat) sd_imageLoopCount]
+-[UIImage(MultiFormat) setSd_imageLoopCount:]
++[UIImage(MultiFormat) sd_imageWithData:]
+-[UIImage(MultiFormat) sd_imageData]
+-[UIImage(MultiFormat) sd_imageDataAsFormat:]
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m
+-[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:]
+-[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:options:]
+-[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:completed:]
+-[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:options:completed:]
+-[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:options:progress:completed:]
+___93-[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:options:progress:completed:]_block_invoke
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m
+__93-[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:options:progress:completed:]_block_invoke
+-[UIImageView(WebCache) sd_setImageWithURL:]
+-[UIImageView(WebCache) sd_setImageWithURL:placeholderImage:]
+-[UIImageView(WebCache) sd_setImageWithURL:placeholderImage:options:]
+-[UIImageView(WebCache) sd_setImageWithURL:completed:]
+-[UIImageView(WebCache) sd_setImageWithURL:placeholderImage:completed:]
+-[UIImageView(WebCache) sd_setImageWithURL:placeholderImage:options:completed:]
+-[UIImageView(WebCache) sd_setImageWithURL:placeholderImage:options:progress:completed:]
+-[UIImageView(WebCache) sd_setImageWithPreviousCachedImageWithURL:placeholderImage:options:progress:completed:]
+-[UIImageView(WebCache) sd_setAnimationImagesWithURLs:]
+___55-[UIImageView(WebCache) sd_setAnimationImagesWithURLs:]_block_invoke
+___55-[UIImageView(WebCache) sd_setAnimationImagesWithURLs:]_block_invoke_2
+___55-[UIImageView(WebCache) sd_setAnimationImagesWithURLs:]_block_invoke_3
+___55-[UIImageView(WebCache) sd_setAnimationImagesWithURLs:]_block_invoke.37
+___copy_helper_block_.38
+___destroy_helper_block_.39
+___copy_helper_block_.41
+___destroy_helper_block_.42
+___copy_helper_block_.47
+___destroy_helper_block_.48
+-[UIImageView(WebCache) sd_cancelCurrentAnimationImagesLoad]
+___block_descriptor_tmp.40
+___block_descriptor_tmp.44
+___block_descriptor_tmp.50
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m
+__55-[UIImageView(WebCache) sd_setAnimationImagesWithURLs:]_block_invoke.37
+__55-[UIImageView(WebCache) sd_setAnimationImagesWithURLs:]_block_invoke_3
+__55-[UIImageView(WebCache) sd_setAnimationImagesWithURLs:]_block_invoke_2
+__55-[UIImageView(WebCache) sd_setAnimationImagesWithURLs:]_block_invoke
+-[UIView(WebCache) sd_imageURL]
+-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:]
+-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]
+___126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.8
+___copy_helper_block_.9
+___destroy_helper_block_.10
+___126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.18
+___126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke_2
+___126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.30
+___copy_helper_block_.31
+___destroy_helper_block_.32
+___126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.34
+___copy_helper_block_.35
+___destroy_helper_block_.36
+___126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.46
+___copy_helper_block_.55
+___destroy_helper_block_.56
+___126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.58
+___copy_helper_block_.59
+___destroy_helper_block_.60
+-[UIView(WebCache) sd_cancelCurrentImageLoad]
+-[UIView(WebCache) sd_setImage:imageData:basedOnClassOrViaCustomSetImageBlock:]
+-[UIView(WebCache) sd_setNeedsLayout]
+-[UIView(WebCache) activityIndicator]
+-[UIView(WebCache) setActivityIndicator:]
+-[UIView(WebCache) sd_setShowActivityIndicatorView:]
+-[UIView(WebCache) sd_showActivityIndicatorView]
+-[UIView(WebCache) sd_setIndicatorStyle:]
+-[UIView(WebCache) sd_getIndicatorStyle]
+-[UIView(WebCache) sd_addActivityIndicator]
+___43-[UIView(WebCache) sd_addActivityIndicator]_block_invoke
+___copy_helper_block_.101
+___destroy_helper_block_.102
+___43-[UIView(WebCache) sd_addActivityIndicator]_block_invoke.104
+-[UIView(WebCache) sd_removeActivityIndicator]
+___46-[UIView(WebCache) sd_removeActivityIndicator]_block_invoke
+___copy_helper_block_.110
+___destroy_helper_block_.111
+___46-[UIView(WebCache) sd_removeActivityIndicator]_block_invoke.113
+___copy_helper_block_.114
+___destroy_helper_block_.115
+_SDWebImageInternalSetImageInGlobalQueueKey
+_imageURLKey
+___block_descriptor_tmp.11
+___block_descriptor_tmp.33
+___block_descriptor_tmp.37
+___block_descriptor_tmp.57
+___block_descriptor_tmp.61
+_TAG_ACTIVITY_INDICATOR
+_TAG_ACTIVITY_SHOW
+_TAG_ACTIVITY_STYLE
+___block_descriptor_tmp.103
+___block_descriptor_tmp.112
+___block_descriptor_tmp.116
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/UIView+WebCache.m
+__46-[UIView(WebCache) sd_removeActivityIndicator]_block_invoke.113
+__46-[UIView(WebCache) sd_removeActivityIndicator]_block_invoke
+__43-[UIView(WebCache) sd_addActivityIndicator]_block_invoke.104
+__43-[UIView(WebCache) sd_addActivityIndicator]_block_invoke
+__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.58
+__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.46
+__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.34
+__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.30
+__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke_2
+__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.18
+__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.8
+__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke
+-[UIView(WebCacheOperation) operationDictionary]
+-[UIView(WebCacheOperation) sd_setImageLoadOperation:forKey:]
+-[UIView(WebCacheOperation) sd_cancelImageLoadOperationWithKey:]
+-[UIView(WebCacheOperation) sd_removeImageLoadOperationWithKey:]
+_loadOperationKey
+l_OBJC_PROTOCOL_REFERENCE_$_SDWebImageOperation
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m
+_OBJC_METACLASS_$_PodsDummy_Pods_AutoPackageScriptDemo
+_OBJC_CLASS_$_PodsDummy_Pods_AutoPackageScriptDemo
+/Users/mac/Desktop/简书/AutoPackageScript/workspace_demo/AutoPackageScriptDemo/Pods/Target Support Files/Pods-AutoPackageScriptDemo/Pods-AutoPackageScriptDemo-dummy.m

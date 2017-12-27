@@ -1,0 +1,28 @@
+BCSymbolMap Version: 2.0
+-[ViewController viewDidLoad]
+-[ViewController didReceiveMemoryWarning]
+_OBJC_CLASS_$_ViewController
+_OBJC_METACLASS_$_ViewController
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+/Users/mac/Desktop/简书/AutoPackageScript/project_demo/AutoPackageScriptDemo/AutoPackageScriptDemo/ViewController.m
+/Users/mac/Desktop/简书/AutoPackageScript/project_demo/AutoPackageScriptDemo
+_OBJC_CLASS_$_AppDelegate
+/Users/mac/Desktop/简书/AutoPackageScript/project_demo/AutoPackageScriptDemo/AutoPackageScriptDemo/main.m
+main
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+/Users/mac/Desktop/简书/AutoPackageScript/project_demo/AutoPackageScriptDemo/AutoPackageScriptDemo/AppDelegate.m
+/Users/mac/Desktop/简书/AutoPackageScript/project_demo/AutoPackageScriptDemo/AutoPackageScriptDemo/AppDelegate.h
