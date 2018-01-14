@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/sh
 
 # 使用方法:
 # step1: 将该脚本放在工程的根目录下（跟.xcworkspace文件or .xcodeproj文件同目录）
@@ -144,9 +144,9 @@ xcodebuild  -exportArchive \
 
 # 检查ipa文件是否存在
 if [ -f "$export_ipa_path/$scheme_name.ipa" ] ; then
-    echo "\033[32;1m exportArchive ipa包成功,准备进行重命名\033[0m"
+    echo "\033[32;1mexportArchive ipa包成功,准备进行重命名\033[0m"
 else
-    echo "\033[31;1m exportArchive ipa包失败 😢 😢 😢     \033[0m"
+    echo "\033[31;1mexportArchive ipa包失败 😢 😢 😢     \033[0m"
     exit 1
 fi
 
