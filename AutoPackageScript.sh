@@ -96,7 +96,7 @@ xcodebuild clean -workspace ${workspace_name}.xcworkspace \
                  -scheme ${scheme_name} \
                  -configuration ${build_configuration}
 
-xcodebuild archive -workspace ${project_name}.xcworkspace \
+xcodebuild archive -workspace ${workspace_name}.xcworkspace \
                    -scheme ${scheme_name} \
                    -configuration ${build_configuration} \
                    -archivePath ${export_archive_path}
